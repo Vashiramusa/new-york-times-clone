@@ -5,3 +5,9 @@
 	padding: 0;
 	box-sizing: 0;
 }
+
+.nav-bar {
+	height: 32px;
+	display: flex;
+	justify-content: space-between;
+}
