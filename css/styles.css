@@ -69,3 +69,8 @@
 .nav-bar-text {
 	font-size: 13px;
 }
+
+.space {
+	padding-left: 4px;
+	padding-right: 4px;
+}
