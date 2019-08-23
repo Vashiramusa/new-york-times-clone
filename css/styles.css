@@ -75,3 +75,94 @@
 	padding-left: 4px;
 	padding-right: 4px;
 }
+
+h1 {
+	max-width: 410px;
+	color: #121212;
+	font-size: 40px;
+	line-height: 3rem;
+	font-style: italic;
+}
+
+.paragraph {
+	color: #333;
+	font-size: 1.25rem;
+	line-height: 1.875rem;
+	margin-top: 1rem;
+}
+
+.figcaption-text {
+	color: #666;
+	font-size: 15px;
+}
+
+.credit {
+	color: #888;
+	font-size: 13px;
+}
+
+.date-text {
+	color: #333333;
+	font-size: 13px;
+}
+
+.content-title {
+	font-size: 20px;
+	color: #333;
+	margin-top: 1rem;
+}
+
+.graphic-info {
+	font-size: 18px;
+	color: #000;
+}
+
+.graphic-description {
+	color: #666;
+	font-size: 14px;
+}
+
+.card-description, .card-title {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-title {
+	font-size: 11px;
+	font-weight: 700;
+}
+
+.card-description {
+	font-size: 14px;
+}
+
+.gray {
+	color: #666;
+}
+
+.block {
+	display: block;
+}
+
+.small-text {
+	color: #999;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.comments-button {
+	background: rgb(98, 136, 165);
+	border: 0.5px solid rgb(50, 104, 145);
+	padding: 10px;
+	width: 330px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+	font-size: 13px;
+	border-radius: 3px;
+	transition: 0.5s all ease-in;
+}
+
+.comments-button:hover {
+	background-color: rgb(50, 104, 145);
+	cursor: pointer;
+}
