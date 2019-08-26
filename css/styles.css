@@ -12,19 +12,21 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-left: 28px;
-	padding-right: 28px;
 	border-bottom: 1px solid #e2e2e2;
+	position: fixed;
+	width: 100vw;
 }
 
 .nav-bar-logo {
 	width: 169px;
 	height: 28px;
+	margin-left: 28px;
 }
 
 .icons-container {
 	display: flex;
 	align-items: center;
+	margin-right: 28px;
 }
 
 
