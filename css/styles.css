@@ -76,6 +76,11 @@
 	padding-right: 4px;
 }
 
+.des {
+	margin: auto;
+	width: 600px
+}
+
 h1 {
 	max-width: 410px;
 	color: #121212;
@@ -88,6 +93,8 @@ h1 {
 	color: #333;
 	font-size: 1.25rem;
 	line-height: 1.875rem;
+	width: 600px;
+	margin: auto;
 	margin-top: 1rem;
 }
 
@@ -109,7 +116,9 @@ h1 {
 .content-title {
 	font-size: 20px;
 	color: #333;
+	margin: auto;
 	margin-top: 1rem;
+	width: 600px;
 }
 
 .graphic-info {
@@ -238,8 +247,13 @@ h1 {
 	border-top: 1px solid rgb(0, 0, 0);
 }
 
+.fig {
+	width: 600px;
+	margin: auto;
+}
+
 .conta-card, .item-new {
-	max-width: 290px;
+	max-width: 270px;
 }
 
 figure img {
@@ -308,3 +322,72 @@ figure img {
 	display: block;
 }
 
+.main-content {
+	width: 945px;
+	margin: auto;
+}
+
+.description {
+	width: 600px;
+	margin: auto;
+}
+
+.s-beet {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer, aside {
+	width: 1280px;
+	display: flex;
+	margin: auto;
+	flex-wrap: wrap;
+}
+
+aside {
+	flex-wrap: nowrap;
+}
+
+.first-section {
+	width: 70%;
+	margin-right: 30px;
+}
+
+.second-section {
+	width: 30%;
+}
+
+
+.cards-container, .news-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer::before {
+    content: "";
+    display: block;
+    height: 1px;
+    margin-top: 0px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    border-top: 2px solid rgb(226, 226, 226);
+}
+
+.full-logo {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.left-container {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.right-container {
+	width: 20%;
+}
+
+.cent {
+	align-items: center;
+}
