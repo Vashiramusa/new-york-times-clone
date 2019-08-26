@@ -228,12 +228,12 @@ h1 {
 	width: 184px;
 }
 
-.conta {
+.conta{
 	padding-top: 17px;
 	border-top: 1px solid rgb(0, 0, 0);
 }
 
-.conta-card {
+.conta-card, .item-new {
 	max-width: 290px;
 }
 
