@@ -179,14 +179,18 @@ h1 {
   text-decoration: underline;
 }
 
-.link{
+.link {
   color: #326891;
   text-decoration: underline;
   font-size: 20px;
 
 }
 
-.credit{
+.link:hover {
+  text-decoration: none;
+}
+
+.credit {
   color: #eeeeee;
   font-size: 18px;
 }
@@ -196,7 +200,7 @@ h1 {
   font-size: 12px;
 }
 
-.small{
+.small {
  text-decoration: none;
 }
 
@@ -214,4 +218,48 @@ h1 {
 .nasa {
   color: #121212;
   font-size: 18px;
+  text-decoration: none;
 }
+
+.nasa:hover {
+  color: #666666;
+}
+
+.ghome {
+  color: #6288a5;
+  font-size: 11px;
+  text-decoration: none;
+  margin: 18px 0px 0px 474.562px;
+}
+
+.h3 {
+  font-size: 13px;
+  color: #333333;
+}
+
+.mlist {
+  color: #333333;
+  font-size: 14px;
+  text-decoration: none
+}
+
+.mlist:hover {
+  text-decoration: underline;
+}
+
+.mbold {
+  color: #000000;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.msmall {
+  color: #000000;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.msmall:hover {
+  text-decoration: underline;
+}
+
