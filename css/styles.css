@@ -289,6 +289,7 @@ figure img {
   color: #000000;
   font-size: 16px;
   text-decoration: none;
+  font-weight: 700;
 }
 
 .msmall {
@@ -299,5 +300,11 @@ figure img {
 
 .msmall:hover {
   text-decoration: underline;
+}
+
+.date {
+	color: #999;
+	font-size: 12px;
+	display: block;
 }
 
