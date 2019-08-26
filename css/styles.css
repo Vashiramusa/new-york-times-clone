@@ -102,7 +102,8 @@ h1 {
 
 .figcaption-text {
 	color: #666;
-	font-size: 15px;
+  font-size: 15px;
+  margin-top: 4px;
 }
 
 .credit {
@@ -125,12 +126,15 @@ h1 {
 
 .graphic-info {
 	font-size: 18px;
-	color: #000;
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 4px;
 }
 
 .graphic-description {
 	color: #666;
-	font-size: 14px;
+  font-size: 14px;
+  margin-bottom: 4px;
 }
 
 .card-description, .card-title {
@@ -158,7 +162,9 @@ h1 {
 .small-text {
 	color: #999;
 	font-size: 12px;
-	font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 26px;
+  margin-bottom: 23px;
 }
 
 .comments-button {
@@ -170,7 +176,8 @@ h1 {
 	color: #FFF;
 	font-size: 13px;
 	border-radius: 3px;
-	transition: 0.5s all ease-in;
+  transition: 0.5s all ease-in;
+  margin-bottom: 55px;
 }
 
 .comments-button:hover {
@@ -251,7 +258,8 @@ h1 {
 
 .fig {
 	width: 600px;
-	margin: auto;
+  margin: auto;
+  margin-top: 40px;
 }
 
 .conta-card, .item-new {
@@ -392,4 +400,9 @@ aside {
 
 .cent {
 	align-items: center;
+}
+
+.mdennis{
+  margin-top: 36px;
+  margin-bottom: 12px;
 }
