@@ -7,6 +7,10 @@
 	font-family: 'Lora', serif;
 }
 
+body {
+	position: relative;
+}
+
 .nav-bar {
 	height: 42px;
 	display: flex;
@@ -14,8 +18,10 @@
 	align-items: center;
 	border-bottom: 1px solid #e2e2e2;
 	position: fixed;
+	top: 0;
 	width: 100vw;
 	background: #fff;
+	z-index: 9999;
 }
 
 .nav-bar-logo {
@@ -85,13 +91,13 @@
 }
 
 h1 {
-	max-width: 410px;
 	color: #121212;
 	font-size: 40px;
 	line-height: 3rem;
 	font-style: italic;
 	width: 600px;
 	margin: auto;
+	margin-bottom: 42px;
 }
 
 .paragraph {
@@ -340,6 +346,7 @@ figure img {
 .main-content {
 	width: 945px;
 	margin: auto;
+	margin-top: 189px;
 }
 
 .description {
@@ -445,4 +452,32 @@ aside {
 
 .ulist {
   list-style: none;
+}
+
+#graphic {
+	position: relative;
+}
+
+.card {
+	width: 230px;
+	position: absolute;
+	top: 0;
+	margin-top: 138px;
+	padding-right: 8px;
+}
+
+.card-time {
+	left: 238px
+}
+
+.card-distant {
+	left: 476px
+}
+
+.card-coffee {
+	left: 714px
+}
+
+.to-down {
+	margin-top: 420px;
 }
