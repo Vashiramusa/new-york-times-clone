@@ -79,24 +79,34 @@
 	padding-right: 4px;
 }
 
+.des {
+	margin: auto;
+	width: 600px
+}
+
 h1 {
 	max-width: 410px;
 	color: #121212;
 	font-size: 40px;
 	line-height: 3rem;
 	font-style: italic;
+	width: 600px;
+	margin: auto;
 }
 
 .paragraph {
 	color: #333;
 	font-size: 1.25rem;
 	line-height: 1.875rem;
+	width: 600px;
+	margin: auto;
 	margin-top: 1rem;
 }
 
 .figcaption-text {
 	color: #666;
-	font-size: 15px;
+  font-size: 15px;
+  margin-top: 4px;
 }
 
 .credit {
@@ -112,17 +122,22 @@ h1 {
 .content-title {
 	font-size: 20px;
 	color: #333;
+	margin: auto;
 	margin-top: 1rem;
+	width: 600px;
 }
 
 .graphic-info {
 	font-size: 18px;
-	color: #000;
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 4px;
 }
 
 .graphic-description {
 	color: #666;
-	font-size: 14px;
+  font-size: 14px;
+  margin-bottom: 4px;
 }
 
 .card-description, .card-title {
@@ -150,7 +165,9 @@ h1 {
 .small-text {
 	color: #999;
 	font-size: 12px;
-	font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 26px;
+  margin-bottom: 23px;
 }
 
 .comments-button {
@@ -162,7 +179,8 @@ h1 {
 	color: #FFF;
 	font-size: 13px;
 	border-radius: 3px;
-	transition: 0.5s all ease-in;
+  transition: 0.5s all ease-in;
+  margin-bottom: 55px;
 }
 
 .comments-button:hover {
@@ -222,6 +240,7 @@ h1 {
   color: #121212;
   font-size: 18px;
   text-decoration: none;
+  font-weight: 700;
 }
 
 .s-serif {
@@ -241,8 +260,14 @@ h1 {
 	border-top: 1px solid rgb(0, 0, 0);
 }
 
+.fig {
+	width: 600px;
+  margin: auto;
+  margin-top: 40px;
+}
+
 .conta-card, .item-new {
-	max-width: 290px;
+	max-width: 270px;
 }
 
 figure img {
@@ -276,6 +301,7 @@ figure img {
 .h3 {
   font-size: 13px;
   color: #333333;
+  margin-bottom: 4px;
 }
 
 .mlist {
@@ -311,3 +337,112 @@ figure img {
 	display: block;
 }
 
+.main-content {
+	width: 945px;
+	margin: auto;
+}
+
+.description {
+	width: 600px;
+	margin: auto;
+}
+
+.s-beet {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer, aside {
+	width: 1280px;
+	display: flex;
+	margin: auto;
+	flex-wrap: wrap;
+}
+
+aside {
+	flex-wrap: nowrap;
+}
+
+.first-section {
+	width: 70%;
+	margin-right: 30px;
+}
+
+.second-section {
+	width: 30%;
+}
+
+
+.cards-container, .news-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer::before {
+    content: "";
+    display: block;
+    height: 1px;
+    margin-top: 0px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    border-top: 2px solid rgb(226, 226, 226);
+}
+
+.full-logo {
+	width: 100%;
+	display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.left-container {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.right-container {
+	width: 20%;
+}
+
+.cent {
+	align-items: center;
+}
+
+.mdennis{
+  margin-top: 36px;
+  margin-bottom: 12px;
+}
+
+.conta-card {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.h2mesg{
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.iterm {
+  border-top: 1px solid #999;
+  padding-bottom: 17px;
+  padding-top: 17px;
+}
+
+.item-new {
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.right-container {
+  display: flex;
+  justify-content: space-between;
+  border-left: 1px solid #999;
+  width: 15%;
+  padding-left: 15px;
+  margin-left: 35px;
+}
+
+.ulist {
+  list-style: none;
+}
