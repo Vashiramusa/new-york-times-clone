@@ -237,6 +237,7 @@ h1 {
   color: #121212;
   font-size: 18px;
   text-decoration: none;
+  font-weight: 700;
 }
 
 .s-serif {
@@ -297,6 +298,7 @@ figure img {
 .h3 {
   font-size: 13px;
   color: #333333;
+  margin-bottom: 4px;
 }
 
 .mlist {
@@ -385,7 +387,8 @@ aside {
 .full-logo {
 	width: 100%;
 	display: flex;
-	justify-content: space-between;
+  justify-content: space-between;
+  margin-bottom: 14px;
 }
 
 .left-container {
@@ -405,4 +408,38 @@ aside {
 .mdennis{
   margin-top: 36px;
   margin-bottom: 12px;
+}
+
+.conta-card {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.h2mesg{
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.iterm {
+  border-top: 1px solid #999;
+  padding-bottom: 17px;
+  padding-top: 17px;
+}
+
+.item-new {
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.right-container {
+  display: flex;
+  justify-content: space-between;
+  border-left: 1px solid #999;
+  width: 15%;
+  padding-left: 15px;
+  margin-left: 35px;
+}
+
+.ulist {
+  list-style: none;
 }
