@@ -31,22 +31,21 @@ body {
 }
 
 .icons-container {
-  display: flex;
-  align-items: center;
+  line-height: 48px;
   margin-right: 28px;
 }
 
 .social-media-icons {
-  display: flex;
+  float: left
 }
 
 .social-icon {
   background: #eee;
   height: 26px;
   width: 26px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  line-height: 26px;
+  display: inline-block;
   border-radius: 50%;
   margin-right: 18px;
 }
@@ -56,8 +55,8 @@ body {
 }
 
 .extra-icons {
-  display: flex;
-  align-items: center;
+  display: inline-block;
+  line-height: 48px;
 }
 
 .extra-icon:first-child {
@@ -280,8 +279,7 @@ figure img {
 }
 
 .end {
-  display: flex;
-  justify-content: flex-end;
+  float: right;
 }
 
 .nasa:hover {
@@ -345,36 +343,42 @@ figure img {
   margin: auto;
 }
 
-.s-beet {
-  display: flex;
-  justify-content: space-between;
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.top-32 {
+  margin-top: 32px;
 }
 
 .footer,
 aside {
   width: 1280px;
-  display: flex;
   margin: auto;
-  flex-wrap: wrap;
 }
 
-aside {
-  flex-wrap: nowrap;
+.footer {
+  padding-top: 32px;
+  clear: both;
 }
 
 .first-section {
-  width: 70%;
+  width: 68%;
   margin-right: 30px;
+  float: left;
 }
 
 .second-section {
-  width: 30%;
-}
-
-.cards-container,
-.news-container {
-  display: flex;
-  flex-wrap: wrap;
+  width: 28%;
+  float: right;
 }
 
 .footer::before {
@@ -388,19 +392,11 @@ aside {
 
 .full-logo {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
   margin-bottom: 14px;
 }
 
 .left-container {
   width: 80%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.cent {
-  align-items: center;
 }
 
 .mdennis {
@@ -430,8 +426,6 @@ aside {
 }
 
 .right-container {
-  display: flex;
-  justify-content: space-between;
   border-left: 1px solid #999;
   width: 15%;
   padding-left: 15px;
@@ -497,4 +491,15 @@ aside {
   margin-left: -600px;
   width: 8px;
   transform: rotate(-90deg)
+}
+
+.card-0,
+.card-1,
+.card-2 {
+  float: left
+}
+
+.footer-nav {
+  float: left;
+  width: 192px;
 }
