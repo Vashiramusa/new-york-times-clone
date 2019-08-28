@@ -23,30 +23,27 @@
 	margin-left: 28px;
 }
 
-.icons-container {
-	display: flex;
-	align-items: center;
-	margin-right: 28px;
+.social-media-icons{
+  
 }
 
-
-.social-media-icons {
-	display: flex;
+.mbutton{
+  color: #fff;
+  background: #6288a5;
+  font-size: 11px;
+  padding: 11px 12px 8px;
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  border-radius: 3px;
+  border: 1px solid #326891;
+  vertical-align: middle;
+  margin-right: 28px;
 }
 
-.social-icon {
-	background: #eeeeee;
-	height: 26px;
-	width: 26px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border-radius: 50%;
-	margin-right: 18px;
-}
-
-.social-icon:hover {
-	background: #fff;
+.mbutton:hover {
+  background: #326891;
+  
 }
 
 .extra-icons {
@@ -76,4 +73,19 @@
 .space {
 	padding-left: 4px;
 	padding-right: 4px;
+}
+
+.menu {
+  width: 16px;
+  height: 16px;
+  margin: 0 8px 0 0;
+  padding: 8px 9px;
+  color: #333;
+  font-size: 11px;
+  line-height: 13px;
+  font-weight: 500;
+}
+
+.menu:hover {
+  display: inline-block;
 }
