@@ -7,24 +7,19 @@
 }
 
 .nav-bar {
-	height: 42px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	border-bottom: 1px solid #e2e2e2;
-	position: fixed;
-	width: 100vw;
-	background: #fff;
+  margin: 0 auto;
+  max-width: 1605px;
+  background: transparent;
+  border-bottom: 0;
+  padding: 4px 15px 2px;
+  height: 36px;
+  position: relative;
 }
 
 .nav-bar-logo {
-	width: 169px;
+	width: 80%;
 	height: 28px;
-	margin-left: 28px;
-}
-
-.social-media-icons{
-  
+  margin-left: 28px;
 }
 
 .mbutton{
@@ -39,6 +34,7 @@
   border: 1px solid #326891;
   vertical-align: middle;
   margin-right: 28px;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
 }
 
 .mbutton:hover {
@@ -46,33 +42,19 @@
   
 }
 
-.extra-icons {
-	display: flex;
-	align-items: center;
-}
-
-.extra-icon:first-child {
-	margin-right: 11px;
-}
-
 .bolder {
-	font-size: 12.5px;
-	font-weight: 700;
-	color: black;
-	text-decoration: none;
+  font-size: 14.25px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  line-height: 19px;
+  text-decoration: none;
+  color: black;
 }
 
 .bolder:hover {
 	text-decoration: underline;
-}
-
-.nav-bar-text {
-	font-size: 13px;
-}
-
-.space {
-	padding-left: 4px;
-	padding-right: 4px;
 }
 
 .menu {
@@ -84,8 +66,51 @@
   font-size: 11px;
   line-height: 13px;
   font-weight: 500;
+  display: inline-block;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  line-height: 13px;
+  vertical-align: middle;
+  margin-right: 8px;
 }
 
-.menu:hover {
+.class {
+ border: 0;
+ background: #fff;
+ border-radius: 3px;
+}
+
+.class:hover {
+  background-color: #f7f7f7;
+}
+
+.msearch {
   display: inline-block;
+  height: 16px;
+  vertical-align: sub;
+  width: 16px;
+}
+
+.mclass {
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  transition: ease 0.6s;
+  background-color: transparent;
+  color: #000;
+  font-size: 11px;
+  font-weight: 700;
+  border: 0;
+}
+
+.mclass:hover {
+  background-color: #f7f7f7;
+}
+
+
+.myspace {
+  display: block;
+  position: absolute;
+  left: 105px;
+  line-height: 19px;
+  top: 10px;
 }
