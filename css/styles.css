@@ -469,3 +469,32 @@ aside {
 .to-down {
   margin-top: 420px;
 }
+
+.foot-centered {
+  width: 1200px;
+  margin: auto;
+}
+
+.footer-fix {
+  position: fixed;
+  bottom: 0vh;
+  width: 100vw;
+  padding: 18px;
+  border-top: 1px solid #121212;
+  background: #fff;
+}
+
+.footer-fix-text {
+  width: 100%;
+  text-align: center;
+  float: left;
+  margin: auto;
+}
+
+.footer-fix-icon {
+  width: 30px;
+  float: right;
+  margin-left: -600px;
+  width: 8px;
+  transform: rotate(-90deg)
+}
