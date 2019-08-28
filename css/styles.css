@@ -7,13 +7,13 @@
 }
 
 .nav-bar {
-  margin: 0 auto;
+  margin: auto;
   max-width: 1605px;
   background: transparent;
-  border-bottom: 0;
   padding: 4px 15px 2px;
   height: 36px;
   position: relative;
+  border-bottom: 1px solid gray;
 }
 
 .nav-bar-logo {
@@ -71,6 +71,7 @@
   line-height: 13px;
   vertical-align: middle;
   margin-right: 8px;
+  background-color: transparent;
 }
 
 .class {
@@ -106,11 +107,17 @@
   background-color: #f7f7f7;
 }
 
-
 .myspace {
   display: block;
   position: absolute;
   left: 105px;
   line-height: 19px;
   top: 10px;
+}
+
+.msubs {
+  top: 4px;
+  justify-content: space-around;
+  position: absolute;
+  right: 15px;
 }
