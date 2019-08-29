@@ -13,21 +13,14 @@ body {
 
 .nav-bar {
   height: 42px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   border-bottom: 1px solid #e2e2e2;
   position: fixed;
   top: 0;
   width: 100vw;
   background: #fff;
   z-index: 9999;
-}
-
-.nav-bar-logo {
-  width: 169px;
-  height: 28px;
-  margin-left: 28px;
+  text-align: center;
+  padding-top: 0;
 }
 
 .icons-container {
@@ -36,7 +29,7 @@ body {
 }
 
 .social-media-icons {
-  float: left
+  float: left;
 }
 
 .social-icon {
@@ -61,17 +54,6 @@ body {
 
 .extra-icon:first-child {
   margin-right: 11px;
-}
-
-.bolder {
-  font-size: 12.5px;
-  font-weight: 700;
-  color: black;
-  text-decoration: none;
-}
-
-.bolder:hover {
-  text-decoration: underline;
 }
 
 .nav-bar-text {
@@ -487,7 +469,6 @@ aside {
 }
 
 .footer-fix-icon {
-  width: 30px;
   float: right;
   margin-left: -600px;
   width: 8px;
@@ -497,7 +478,7 @@ aside {
 .card-0,
 .card-1,
 .card-2 {
-  float: left
+  float: left;
 }
 
 .footer-nav {
@@ -543,7 +524,7 @@ aside {
   color: #333;
   width: 120px;
   width: calc(100% - 85px);
-    margin: auto 0px auto 10px;
+  margin: auto 0px auto 10px;
 }
 
 .editor-desc:hover {
@@ -563,4 +544,124 @@ aside {
 .editor-title {
   font-size: 14px;
   margin-bottom: 12px;
+}
+
+.nav-bar-logo {
+  width: 80%;
+  height: 30px;
+  margin-left: 28px;
+}
+
+.logo {
+  width: 250px;
+  height: 26px;
+  display: inline-block;
+}
+
+.mbutton {
+  color: #fff;
+  background: #6288a5;
+  font-size: 10px;
+  padding: 10px 10px 9px;
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  border-radius: 3px;
+  border: 1px solid #326891;
+  vertical-align: middle;
+  margin-right: 5px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.mbutton:hover {
+  background: #326891;
+}
+
+.bolder {
+  font-size: 15.25px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #000;
+}
+
+.bolder:hover {
+  text-decoration: underline;
+}
+
+.menu-sear {
+  width: 16px;
+  height: 16px;
+  margin: 0 8px 0 0;
+  padding: 8px 9px;
+  color: #333;
+  font-size: 11px;
+  font-weight: 500;
+  display: inline-block;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  line-height: 13px;
+  vertical-align: middle;
+  margin-right: 8px;
+  background-color: transparent;
+}
+
+.class {
+  border: 0;
+  background: #fff;
+  border-radius: 3px;
+}
+
+.class:hover {
+  background-color: #f7f7f7;
+}
+
+.msearch {
+  display: inline-block;
+  height: 16px;
+  vertical-align: sub;
+  width: 16px;
+  padding-left: 20px;
+}
+
+.mclass:hover {
+  background-color: #f7f7f7;
+}
+
+.myspace {
+  float: left;
+  line-height: 19px;
+  padding-top: 5px;
+  padding-left: 25px;
+}
+
+.header {
+  width: 100%;
+  z-index: 200;
+  background-color: #fff;
+  border-bottom: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.section {
+  margin: 0 auto;
+  max-width: 1605px;
+  background: transparent;
+  border-bottom: 0;
+  padding: 4px 15px 2px;
+}
+
+.search-menu {
+  float: left;
+  padding-left: 10px;
+  font-size: 100%;
+}
+
+.msubs {
+  padding-left: 50px;
+  float: right;
 }
