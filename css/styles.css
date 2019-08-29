@@ -476,6 +476,7 @@ aside {
   padding: 18px;
   border-top: 1px solid #121212;
   background: #fff;
+  z-index: 9999999;
 }
 
 .footer-fix-text {
@@ -490,7 +491,7 @@ aside {
   float: right;
   margin-left: -600px;
   width: 8px;
-  transform: rotate(-90deg)
+  transform: rotate(-90deg);
 }
 
 .card-0,
@@ -502,4 +503,64 @@ aside {
 .footer-nav {
   float: left;
   width: 192px;
+}
+
+.editor-aside {
+  float: right;
+  width: 42px;
+  width: 70px;
+  background: red;
+  margin-top: 500px;
+  position: relative;
+}
+
+.max-width {
+  width: 945px;
+  margin: auto;
+}
+
+.text-container {
+  background: red;
+}
+
+.text {
+  margin-left: 175px;
+}
+
+.absolute-aside {
+  position: absolute;
+  width: 250px;
+}
+
+.editor-img {
+  width: 75px;
+  height: 75px;
+}
+
+.editor-desc {
+  text-decoration: none;
+  font-size: 14px;
+  color: #333;
+  width: 120px;
+  width: calc(100% - 85px);
+    margin: auto 0px auto 10px;
+}
+
+.editor-desc:hover {
+  text-decoration: underline;
+}
+
+.editor-item {
+  display: inline-block;
+  margin-bottom: 18px;
+}
+
+.editor-container {
+  border-top: 1px solid #999;
+  padding-top: 18px;
+}
+
+.editor-title {
+  font-size: 14px;
+  margin-bottom: 12px;
 }
